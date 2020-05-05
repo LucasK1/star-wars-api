@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Star Wars Characters</title>
+</head>
+<body>
+
+  <h1>STAR WARS CHARACTER FINDER</h1>
+
+  <div id="form">
+    <span class="title-label">I would like to see</span>
+
+    <input type="number" name="number-of-items" id="number">
+
+    <ul>
+      <li>
+        <input type="radio" name="type-of-request" value="starships">
+        <span class="spaceships">Starships</span>
+      </li>
+      <li>
+        <input type="radio" name="type-of-request" value="planets">
+        <span class="planets">Planets</span>
+      </li>
+      <li>
+        <input type="radio" name="type-of-request" value="people">
+        <span class="characters">Characters</span>
+      </li>
+      <li>
+        <input type="radio" name="type-of-request" value="species">
+        <span class="vehicles">Species</span>
+      </li>
+    </ul>
+
+    <button name="submit-request" id="get-info">Dupa</button>
+  </div>
+  
+  <div class="container" id="display">
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
